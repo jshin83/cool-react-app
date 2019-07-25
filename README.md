@@ -1,68 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# cool react app with 6 Templates
+## Team Members
+** Jen, William F, Anthony**
 
-## Available Scripts
+## Errors
++ Template 1 error:
+  + ‘cool-react-bucket’ should have been ‘coolReactBucket’.
+  ![](.images/aws1err1.png)
 
-In the project directory, you can run:
+  + Website works as expected
++ Template 2 error:
+  + No bugs when uploading yml but website not working -> found that maybe gitHub OAuth has to be different each time, because we updated with template one and website would still not work
+  ![](.images/aws2pageErr1.png)
++ Template 3 error:
+  + ‘cool’ was missing in ‘cool-react-app’.
+  + website does not work -> forbidden
++ Template 4 error:
+  + CodePipeLine was not correctly camel cased.
+  + It was also missing a the codebuildrole section of the Yml file.
+  ![](.images/aws4err1.png)
+  ![](.images/aws4err2.png)
+  ![](.images/aws4stackerr1.png)
 
-### `npm start`
+  + Stack fails
++ Template 5 error:
+  + There was a missing ‘!’ in front of one the joins.
+  + Stack fails
+  ![](.images/stack5err.png)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
++ Template 6 error:
+  + ‘cool-react-bucket.’ should have been ‘coolReactBucket’.
+  + One of the codepipelines was spelled wrong.
+  + "recursive" missing in post-build
+  ![](.images/aws6err1.png)
+  ![](.images/aws6err2.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+  + stack fails
+  ![](.images/aws6stackerr1.png)
